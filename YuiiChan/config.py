@@ -14,18 +14,18 @@ class Config(object):
     # REQUIRED
     # Login to https://my.telegram.org and fill in these slots with the details given by it
 
-    API_ID = "awoo"
-    API_HASH = "awoo"
-    API_KEY = "BOT_TOKEN"
-    OWNER_ID = "792109647"  # If you dont know, run the bot and do /id in your private chat with it
-    OWNER_USERNAME = "Sawada"
-    SUPPORT_CHAT = "@OnePunchSupport"
+    API_ID = "12916125"
+    API_HASH = "dfebf9cc52b859771cf8a1d447e751a5"
+    API_KEY = "5923462655:AAGABmVO38Umc3c764Doh1u3mdpW5yv773w"
+    OWNER_ID = "1651746145"  # If you dont know, run the bot and do /id in your private chat with it
+    OWNER_USERNAME = "akash8911"
+    SUPPORT_CHAT = "@erensupportgroup"
 
     # RECOMMENDED
 
     SQLALCHEMY_DATABASE_URI = "something://somewhat:user@hosturl:port/databasename"  # needed for any database modules
-    MESSAGE_DUMP = -1001253661229  # needed to make sure 'save from' messages persist
-    GBAN_LOGS = -1001190806654
+    MESSAGE_DUMP = -1001913986602  # needed to make sure 'save from' messages persist
+    GBAN_LOGS = -1001913986602
     LOAD = []
     NO_LOAD = ["rss", "cleaner", "connection", "math"]
     WEBHOOK = False
@@ -33,14 +33,14 @@ class Config(object):
 
     # OPTIONAL
     ##List of id's -  (not usernames) for users which have sudo access to the bot.
-    SUDO_USERS = get_user_list("elevated_users.json", "sudos")
+    SUDO_USERS = get_user_list("elevated_users.json", "1651746145")
     ##List of id's - (not usernames) for developers who will have the same perms as the owner
-    DEV_USERS = get_user_list("elevated_users.json", "devs")
+    DEV_USERS = get_user_list("elevated_users.json", "1651746145")
     ##List of id's (not usernames) for users which are allowed to gban, but can also be banned.
-    SUPPORT_USERS = get_user_list("elevated_users.json", "supports")
+    SUPPORT_USERS = get_user_list("elevated_users.json", "1651746145")
     # List of id's (not usernames) for users which WONT be banned/kicked by the bot.
-    TIGER_USERS = get_user_list("elevated_users.json", "tigers")
-    WHITELIST_USERS = get_user_list("elevated_users.json", "whitelists")
+    TIGER_USERS = get_user_list("elevated_users.json", "1651746145")
+    WHITELIST_USERS = get_user_list("elevated_users.json", "1651746145")
     DONATION_LINK = None  # EG, paypal
     CERT_PATH = None
     PORT = 5000
