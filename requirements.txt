@@ -12,6 +12,7 @@ spongemock
 zalgo-text
 geopy
 nltk
+git+https://github.com/trentm/python-markdown2.git
 psutil
 aiohttp>=2.2.5
 Pillow>=4.2.0
