@@ -14,16 +14,16 @@ class Config(object):
     # REQUIRED
     # Login to https://my.telegram.org and fill in these slots with the details given by it
 
-    API_ID = "12916125"
+    API_ID = 12916125
     API_HASH = "dfebf9cc52b859771cf8a1d447e751a5"
-    API_KEY = "5923462655:AAGABmVO38Umc3c764Doh1u3mdpW5yv773w"
-    OWNER_ID = "1651746145"  # If you dont know, run the bot and do /id in your private chat with it
+    TOKEN = "6212279244:AAH7kw4PQhgGyuQPE7h3d0_2pamy7J-R4cc"
+    OWNER_ID = 1651746145  # If you dont know, run the bot and do /id in your private chat with it
     OWNER_USERNAME = "akash8911"
     SUPPORT_CHAT = "@erensupportgroup"
 
     # RECOMMENDED
 
-    SQLALCHEMY_DATABASE_URI = "something://somewhat:user@hosturl:port/databasename"  # needed for any database modules
+    SQLALCHEMY_DATABASE_URI = ""  # needed for any database modules
     MESSAGE_DUMP = -1001913986602  # needed to make sure 'save from' messages persist
     GBAN_LOGS = -1001913986602
     LOAD = []
